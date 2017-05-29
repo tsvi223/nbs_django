@@ -17,7 +17,6 @@ from django.conf.urls import include,url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^/heck', include('nbs_pro.urls')),
-    url(r'^', include('nbs_pro.urls')),
+    url(r'^', include('test_nbs.urls')),
     url(r'^admin/', admin.site.urls),
 ]

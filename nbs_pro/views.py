@@ -24,7 +24,6 @@ def check(request):
     else:
         return render(request, 'index.html')
 
-
 def index(request):
     try:
             print ('start' , request.method , request.POST['fname'])
